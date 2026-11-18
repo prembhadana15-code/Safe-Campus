@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Stop Ragging</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="top">In danger right now? Call <a href="tel:112">112</a></div>
+
+  <nav>
+     <img src="safe-campus-logo.svg" alt="logo" class="logo">
+    <a href="index.html">Home</a>
+    <a href="rights.html">Rights</a>
+    <a href="helplines.html">Helplines</a>
+    <a href="about.html">About</a>
+  </nav>
+
+  <div class="page">
+    <h1>Report Ragging</h1>
+    <p>Ragging is a crime. If someone is forcing, scaring or hurting you or another student, tell us. You do not have to give your name.</p>
+
+    <div class="box">
+      <p class="note">Demo: this form does not send your complaint anywhere yet.</p>
+
+      <form id="complaintForm">
+        <label for="name">Your name</label>
+        <input type="text" id="name">
+
+        <label for="college">College or school name</label>
+        <input type="text" id="college">
+
+        <label for="details">What happened? (say when and where too)</label>
+        <textarea id="details"></textarea>
+
+        <button type="button" onclick="sendComplaint()">Send complaint</button>
+      </form>
+
+      <div id="thanks">
+        <h2>Thank you for speaking up</h2>
+        <p>If you feel unsafe, call 112 or see the <a href="helplines.html">Helplines</a> page.</p>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

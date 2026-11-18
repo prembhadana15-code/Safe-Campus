@@ -1,0 +1,107 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background: #f4f6f8;
+  color: #222;
+  line-height: 1.6;
+}
+.logo{
+  width: 160px;
+}
+
+.top {
+  background: #c0392b;
+  color: white;
+  text-align: center;
+  padding: 8px;
+}
+
+.top a {
+  color: white;
+  font-weight: bold;
+}
+
+nav {
+  background: #63250e;
+  padding: 12px 20px;
+  display: flex;
+  justify-content: space-around;
+}
+
+nav a {
+  color: white;
+  margin-right: 20px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+.page {
+  max-width: 700px;
+  margin: 20px auto;
+  padding: 0 20px;
+}
+
+h1 {
+  color: #0e5a63;
+}
+
+.box {
+  background: white;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  padding: 20px;
+}
+
+.note {
+  background: #fff3cd;
+  padding: 8px;
+  font-size: 14px;
+}
+
+label {
+  display: block;
+  margin-top: 12px;
+  font-weight: bold;
+}
+
+input, textarea {
+  width: 100%;
+  padding: 8px;
+  font-size: 16px;
+  box-sizing: border-box;
+}
+
+textarea {
+  height: 120px;
+}
+
+button {
+  margin-top: 15px;
+  background: #0e5a63;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+#thanks {
+  display: none;
+  background: #e0f2e9;
+  padding: 15px;
+  border-radius: 6px;
+}
+
+.helpline {
+  border-bottom: 1px solid #ccc;
+  padding: 10px 0;
+}
+
+.helpline a {
+  font-size: 20px;
+  font-weight: bold;
+}
